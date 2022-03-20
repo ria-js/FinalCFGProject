@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" />
+    <title>Mindfulness</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="./index.html">Home</a>
+        <a href="./index2.html">About</a>
+        <a href="./index3.html">Thoughts?</a>
+        <form method="get" action="https://www.google.com/search" id="SearchBar">
+            <input type="text" placeholder="Search Google..." name="q" id="search" />
+            <input type="submit" value="search" id="send" disabled />
+        </form>
+    </div>
+
+    <header>
+        <div class="row">
+            <div class="column" id="LeftCol">
+                <h1>Mindfulness</h1>
+                <h2>The Benefits of Mindfulness In A Busy World</h2>
+            </div>
+            <div class="column" id="RightCol">
+                <h2>Share your thoughts?</h2>
+                <a href="./index3.html">Leave Message</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="form">
+            <h2>Please share your thoughts on my page!</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputName1" class="form-label">Your name</label>
+                        <input type="text" class="form-control" id="exampleInputName1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputMessage1" class="form-label">Your message</label>
+                        <input type="message" class="form-control" id="exampleInputMessage1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">I am sure I want to send this message</label>
+                    </div>
+                    <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-primary" id="liveAlertBtn">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer">
+                    Resources:
+                    <ul>
+                        <li><a href="https://www.mindful.org/" target="_blank">Mindful</a></li>
+                        <li><a href="https://www.helpguide.org/harvard/benefits-of-mindfulness.htm"
+                                target="_blank">Harvard</a></li>
+                        <li><a href="https://disturbmenot.co/meditation-statistics/#:~:text=Over%2014%25%20of%20Americans%20have,according%20to%20mindfulness%20meditation%20stats."
+                                target="_blank">Statistics</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4041.5684690494986!2d-63.599367493886284!3d44.65671548175478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a217bd19108af%3A0x51b5dc4df2b55e14!2s5765%20May%20St%2C%20Halifax%2C%20NS%20B3K%201R8%2C%20Canada!5e0!3m2!1sen!2suk!4v1647555131300!5m2!1sen!2suk"
+                        width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer">
+                    <p>Address:</br>
+                        5765 May Street Halifax</br>
+                        Nova Scotia, Canada</br>
+                        B3K 1R6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="./app.js"></script>
+</body>
+</html>
